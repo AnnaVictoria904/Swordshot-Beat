@@ -1,5 +1,6 @@
 using UnityEngine;
 
+<<<<<<< Updated upstream
 public class Fragmentador : MonoBehaviour
 {
     public GameObject fragmentoPrefab;
@@ -21,3 +22,17 @@ public class Fragmentador : MonoBehaviour
         Instantiate(fragmentoPrefab, transform.position, Quaternion.identity);
     }
 }
+=======
+public class Espada : MonoBehaviour
+{
+    void OnTriggerEnter(Collider other)
+    {
+        // Verifica si el objeto con el que colisionamos es un cubo
+        if (other.CompareTag("TestIsma"))
+        {
+            // Hace que el cubo desaparezca
+            Destroy(other.gameObject);
+        }
+    }
+}
+>>>>>>> Stashed changes

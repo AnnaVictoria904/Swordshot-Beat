@@ -1876,6 +1876,7 @@ Transform:
   - {fileID: 8900033693109204885}
   - {fileID: 165222653978168725}
   - {fileID: 1982879836239456625}
+  - {fileID: 7120803694156574809}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &106469339147652761
@@ -2513,7 +2514,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.035, y: 0.02, z: 0.018}
   m_Center: {x: -0.015, y: 0, z: 0.002}
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
 --- !u!1001 &1171577801083937210
+=======
+--- !u!1001 &7123770003344837903
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2527,6 +2532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
@@ -2564,6 +2570,45 @@ PrefabInstance:
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+=======
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.024446007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0162
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
       objectReference: {fileID: 0}
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2571,22 +2616,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
       value: -84.309
+=======
+      value: 90
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
       objectReference: {fileID: 0}
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
     - target: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1483948438247126, guid: 862ea6754452d6649988db8d686def60, type: 3}
       insertIndex: -1
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
       addedObject: {fileID: 3375703239087495116}
     - targetCorrespondingSourceObject: {fileID: 1483948438247126, guid: 862ea6754452d6649988db8d686def60, type: 3}
       insertIndex: -1
@@ -2611,12 +2664,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragmentoPrefab: {fileID: 8256293993627212855, guid: 8e84d1a29aa77e84090f8d8d2a317e6a, type: 3}
 --- !u!65 &4087668830969437600
+=======
+      addedObject: {fileID: 471503137647534581}
+    - targetCorrespondingSourceObject: {fileID: 1483948438247126, guid: 862ea6754452d6649988db8d686def60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8357553353510871702}
+  m_SourcePrefab: {fileID: 100100000, guid: 862ea6754452d6649988db8d686def60, type: 3}
+--- !u!4 &7120803694156574809 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
+  m_PrefabInstance: {fileID: 7123770003344837903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7122991156500437977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1483948438247126, guid: 862ea6754452d6649988db8d686def60, type: 3}
+  m_PrefabInstance: {fileID: 7123770003344837903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &471503137647534581
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
   m_GameObject: {fileID: 1172908878750398316}
+=======
+  m_GameObject: {fileID: 7122991156500437977}
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2629,6 +2704,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< Updated upstream:Assets/Prefabs/RobotHand (No Controller).prefab
   m_Size: {x: 0.0695372, y: 1.0036712, z: 0.07724919}
   m_Center: {x: -0.00000005122274, y: 0.3650514, z: 0.000000022351742}
 --- !u!4 &1174557582410996972 stripped
@@ -2636,3 +2712,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4110148134911318, guid: 862ea6754452d6649988db8d686def60, type: 3}
   m_PrefabInstance: {fileID: 1171577801083937210}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_Size: {x: 0.069537215, y: 1.0036712, z: 0.07724921}
+  m_Center: {x: -0.00000005215408, y: 0.3650514, z: 0.000000020489102}
+--- !u!114 &8357553353510871702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7122991156500437977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690afdda0f34cb647ac901670e3373ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes:Assets/Prefabs/Weapons/RobotHand (No Controller).prefab
