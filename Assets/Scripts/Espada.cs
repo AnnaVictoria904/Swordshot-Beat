@@ -1,6 +1,6 @@
 using UnityEngine;
 
-<<<<<<< Updated upstream
+/*
 public class Fragmentador : MonoBehaviour
 {
     public GameObject fragmentoPrefab;
@@ -22,7 +22,7 @@ public class Fragmentador : MonoBehaviour
         Instantiate(fragmentoPrefab, transform.position, Quaternion.identity);
     }
 }
-=======
+*/
 public class Espada : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
@@ -35,4 +35,3 @@ public class Espada : MonoBehaviour
         }
     }
 }
->>>>>>> Stashed changes
