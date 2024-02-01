@@ -16,10 +16,10 @@ public class SliceObject : MonoBehaviour
 
     void Start()
     {
-        
+        hasSliced = false;
     }
 
-    private bool hasSliced = false;
+    public bool hasSliced { get; private set; }
 
     void FixedUpdate()
     {

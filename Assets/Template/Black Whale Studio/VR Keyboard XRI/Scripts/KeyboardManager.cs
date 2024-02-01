@@ -94,25 +94,15 @@ namespace Keyboard
             switchNumberSpecialButton.onClick.AddListener(SwitchBetweenNumbersAndSpecialCharacters);
             switchButtonText = switchButton.GetComponentInChildren<TextMeshProUGUI>();
             switchNumSpecButtonText = switchNumberSpecialButton.GetComponentInChildren<TextMeshProUGUI>();
-<<<<<<< Updated upstream
-            keyChannel.RaiseKeyColorsChangedEvent(normalColor, highlightedColor, pressedColor, selectedColor);
-=======
             //keyChannel.RaiseKeyColorsChangedEvent(normalColor, highlightedColor, pressedColor, selectedColor);
->>>>>>> Stashed changes
             
             switchNumberSpecialButton.gameObject.SetActive(false);
             numbersKeyboard.SetActive(false);
             specialCharactersKeyboard.SetActive(false);
 
-<<<<<<< Updated upstream
-            if (!autoCapsAtStart) return;
-            ActivateShift();
-            UpdateShiftButtonAppearance();
-=======
             /*if (!autoCapsAtStart) return;
             ActivateShift();
             UpdateShiftButtonAppearance();*/
->>>>>>> Stashed changes
         }
 
         private void OnDestroy()
@@ -152,19 +142,11 @@ namespace Keyboard
 
             outputField.selectionAnchorPosition = outputField.selectionFocusPosition = startPos + textToInsert.Length;
 
-<<<<<<< Updated upstream
-            if (isFirstKeyPress)
-            {
-                isFirstKeyPress = false;
-                keyChannel.onFirstKeyPress.Invoke();
-            }
-=======
             /*if (isFirstKeyPress)
             {
                 isFirstKeyPress = false;
                 keyChannel.onFirstKeyPress.Invoke();
             }*/
->>>>>>> Stashed changes
     
             CheckTextLength();
         }
@@ -324,11 +306,7 @@ namespace Keyboard
         {
             if (capsLockActive)
             {
-<<<<<<< Updated upstream
-                shiftButtonColors.normalColor = highlightedColor;
-=======
                 //shiftButtonColors.normalColor = highlightedColor;
->>>>>>> Stashed changes
                 buttonImage.sprite = activeSprite;
             }
             else if(shiftActive)
@@ -338,11 +316,7 @@ namespace Keyboard
             }
             else
             {
-<<<<<<< Updated upstream
-                shiftButtonColors.normalColor = normalColor;
-=======
                 //shiftButtonColors.normalColor = normalColor;
->>>>>>> Stashed changes
                 buttonImage.sprite = defaultSprite;
             }
 
