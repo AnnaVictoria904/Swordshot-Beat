@@ -1930,7 +1930,7 @@ GameObject:
   - component: {fileID: 2327616046188920004}
   - component: {fileID: 4231192272129118083}
   m_Layer: 0
-  m_Name: RobotHand_No_Controller
+  m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

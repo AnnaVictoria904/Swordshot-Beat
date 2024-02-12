@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5736826, g: 0.39288002, b: 0.6147823, a: 1}
+  m_IndirectSpecularColor: {r: 0.57461923, g: 0.39426178, b: 0.6156205, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -256,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Positions.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7389991726477850930, guid: a5226a72c9553294abfe172a458b5805, type: 3}
+      propertyPath: hand
+      value: 
+      objectReference: {fileID: 9201711370266972039, guid: e0c8512d00b706a4ca84d60bbaa7ca9f, type: 3}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -327,12 +331,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a5226a72c9553294abfe172a458b5805, type: 3}
 --- !u!4 &899486507 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3810274220266762155, guid: a5226a72c9553294abfe172a458b5805, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3810274221143952376, guid: a5226a72c9553294abfe172a458b5805, type: 3}
   m_PrefabInstance: {fileID: 899486506}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &899486508 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5574953345868632286, guid: a5226a72c9553294abfe172a458b5805, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5574953344329921677, guid: a5226a72c9553294abfe172a458b5805, type: 3}
   m_PrefabInstance: {fileID: 899486506}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -341,11 +345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ea76aee75c34e449e51b624d94c8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &899486509 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8449135988700908506, guid: a5226a72c9553294abfe172a458b5805, type: 3}
-  m_PrefabInstance: {fileID: 899486506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &905051500
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 039debf142bc43548aeb9c6159b342b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSlicePoint: {fileID: 899486509}
+  startSlicePoint: {fileID: 1539241775}
   endSlicePoint: {fileID: 899486507}
   VelocityEstimator: {fileID: 899486508}
   sliceableLayer:
@@ -755,6 +754,11 @@ CanvasRenderer:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3484128598858123230, guid: 02be27ab17ab3b14f954f65dc06dd738, type: 3}
   m_PrefabInstance: {fileID: 1744769147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1539241775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8449135989660954505, guid: a5226a72c9553294abfe172a458b5805, type: 3}
+  m_PrefabInstance: {fileID: 899486506}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1555400093
 PrefabInstance:
