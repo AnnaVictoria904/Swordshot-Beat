@@ -12,12 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690929a59dc7a42da9030305190d391f, type: 3}
   m_Name: XRDeviceSimulatorSettings
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream:Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
   m_AutomaticallyInstantiateSimulatorPrefab: 0
   m_AutomaticallyInstantiateInEditorOnly: 1
   m_SimulatorPrefab: {fileID: 0}
-=======
-  m_EnvironmentPrefab: {fileID: 0}
-  m_FallbackEnvironmentPrefab: {fileID: 0}
-  m_EnableNavigation: 1
->>>>>>> Stashed changes:Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset

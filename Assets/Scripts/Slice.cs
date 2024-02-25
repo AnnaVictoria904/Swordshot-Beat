@@ -23,8 +23,8 @@ public class SliceObject : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!hasSliced)
-        {
+        //if (!hasSliced)
+        //{
             bool hasHit = Physics.Linecast(startSlicePoint.position, endSlicePoint.position, out RaycastHit hit, sliceableLayer);
             if (hasHit)
             {
@@ -32,7 +32,7 @@ public class SliceObject : MonoBehaviour
                 Slice(target);
                 hasSliced = true;
             }
-        }
+        //}
     }
 
     public void Slice(GameObject target)
